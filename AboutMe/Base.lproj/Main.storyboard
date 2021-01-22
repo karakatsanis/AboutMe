@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mRM-hW-kpt">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MyBio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Bio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPy-0N-lhy">
+                                <rect key="frame" x="41" y="54" width="332" height="98.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="72"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RPy-0N-lhy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="8Is-0R-dzh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RPy-0N-lhy" secondAttribute="trailing" constant="41" id="Jlt-7g-bfZ"/>
+                            <constraint firstItem="RPy-0N-lhy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="PcD-SA-07v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MyBio" image="B" id="I1V-BL-qlB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-139.13043478260872" y="34.821428571428569"/>
+        </scene>
+        <!--MyHobbies-->
+        <scene sceneID="im9-8g-W8X">
+            <objects>
+                <viewController id="3a2-ab-lO6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fYC-EL-6C0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Hobbies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVy-bW-VuU">
+                                <rect key="frame" x="41" y="54" width="332" height="79.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="58"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wVy-bW-VuU" firstAttribute="top" secondItem="0Gb-W6-gV3" secondAttribute="top" constant="10" id="ECZ-ZB-WQF"/>
+                            <constraint firstItem="0Gb-W6-gV3" firstAttribute="trailing" secondItem="wVy-bW-VuU" secondAttribute="trailing" constant="41" id="hNf-Xv-WFO"/>
+                            <constraint firstItem="wVy-bW-VuU" firstAttribute="leading" secondItem="0Gb-W6-gV3" secondAttribute="leading" constant="41" id="yKU-gd-hgu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0Gb-W6-gV3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MyHobbies" image="O" id="4pv-Kx-y4J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hpe-a8-jJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Bio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fyh-cb-mVT">
+                    <rect key="frame" x="0.0" y="0.0" width="332" height="115"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="72"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </objects>
+            <point key="canvasLocation" x="805.79710144927537" y="366.96428571428572"/>
+        </scene>
+        <!--MyFamily-->
+        <scene sceneID="cXC-Mb-hLz">
+            <objects>
+                <viewController id="Z1a-o6-HEG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tCu-Hs-m2E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Family" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66w-Un-BXu">
+                                <rect key="frame" x="41" y="54" width="332" height="98.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="72"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ShJ-uf-V58" firstAttribute="trailing" secondItem="66w-Un-BXu" secondAttribute="trailing" constant="41" id="LLX-8J-oK9"/>
+                            <constraint firstItem="66w-Un-BXu" firstAttribute="leading" secondItem="ShJ-uf-V58" secondAttribute="leading" constant="41" id="bNU-My-P5P"/>
+                            <constraint firstItem="66w-Un-BXu" firstAttribute="top" secondItem="ShJ-uf-V58" secondAttribute="top" constant="10" id="y7G-Kc-1wo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ShJ-uf-V58"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MyFamily" image="G" id="ORD-Wy-kpP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Goy-Be-aBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805.79710144927537" y="-348.21428571428572"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="eA9-lf-ZnK">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mRM-hW-kpt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5kx-uo-a5a">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Z1a-o6-HEG" kind="relationship" relationship="viewControllers" id="Jg8-T9-JK7"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hCG-l2-zq7"/>
+                        <segue destination="3a2-ab-lO6" kind="relationship" relationship="viewControllers" id="vqL-yN-1QW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdJ-0W-w26" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1049.2753623188407" y="9.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="B" width="28" height="28"/>
+        <image name="G" width="28" height="28"/>
+        <image name="O" width="28" height="28"/>
+    </resources>
+</document>
